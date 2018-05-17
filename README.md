@@ -81,11 +81,11 @@ docker pull pyuhala01/logstash
 docker pull pyuhala01/kibana
 
 ```
-Running the images: cd into elkdocker/docker-compose and open your terminal
-```
-#Run the docker images
+Running the images: cd into elkdocker/docker-compose and open your terminal. Type the following command to run the images
 
+```
 sudo docker-compose up
+
 ```
 
 ### Tests
