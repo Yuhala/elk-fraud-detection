@@ -3,7 +3,7 @@ A simbox-fraud detection tool based on the ELK stack.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [documentation](documentation.pdf) for more information on the project.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [documentation](documentation-simbox-fraud-detection.pdf) for more information on the project.
 
 ### Prerequisites
 
@@ -107,7 +107,7 @@ The kibana interface should appear in your browser.
 
 ## How to use the program
 
-All steps required for deploying and using this application can be found in Chapter 3 of the [documentation](documentation.pdf) file.
+All steps required for deploying and using this application can be found in Chapter 3 of the [documentation](documentation-simbox-fraud-detection.pdf) file.
 
 ## Built With
 
