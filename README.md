@@ -9,20 +9,33 @@ These instructions will get you a copy of the project up and running on your loc
 
 To follow this tutorial with minimal hiccups you need Ubuntu 16.04 server and a non-root user with sudo priviledges. 
 
-### Installing docker and docker compose
+## Installing docker and docker compose
 The following commands will install docker and docker compose on your linux machine.
 
+###Installing docker
+First, add the GPG key for the official Docker repository to the system:
+
 ```
-#Installing docker
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
+```
+Add the Docker repository to APT sources:
+
+```
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+```
+Update the package database with the Docker packages from the newly added repo:
+
+```
 sudo apt-get update
-sudo apt-get install curl
-curl -ssl https://get.docker.com | sh
 
-#Installing docker compose
+```
+Install Docker
 
-sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+```
+sudo apt-get install -y docker-ce
+
 ```
 
 ### Obtaining the main project folder from google drive
