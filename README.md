@@ -12,7 +12,7 @@ To follow this tutorial with minimal hiccups you need Ubuntu 16.04 server and a 
 ## Installing docker and docker compose
 The following commands will install docker and docker compose on your linux machine.
 
-###Installing docker
+### Installing docker
 First, add the GPG key for the official Docker repository to the system:
 
 ```
