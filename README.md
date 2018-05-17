@@ -14,11 +14,13 @@ The following commands will install docker and docker compose on your linux mach
 
 ```
 #Installing docker
+
 sudo apt-get update
 sudo apt-get install curl
 curl -ssl https://get.docker.com | sh
 
 #Installing docker compose
+
 sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
@@ -50,6 +52,7 @@ docker pull pyuhala01/kibana
 Running the images: cd into elkdocker/docker-compose and open your terminal
 ```
 #Run the docker images
+
 sudo docker-compose up
 ```
 
@@ -76,12 +79,12 @@ All steps required for deploying and using this application can be found in Chap
 
 ## Built With
 
-* [ELK Stack](http://www.dropwizard.io/1.0.2/docs/) - A powerful open-source log management platform
+* [ELK Stack](https://www.elastic.co/webinars/introduction-elk-stack) - A powerful open-source log management platform
 
 
 ## Authors
 
-* **Peterson Yuhala** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Peterson Yuhala** 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
