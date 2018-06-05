@@ -81,7 +81,7 @@ docker pull pyuhala01/logstash
 docker pull pyuhala01/kibana
 
 ```
-Running the images: cd into elkdocker/docker-compose and open your terminal. Type the following command to run the images
+Running the images: cd into `elkdocker/docker-compose` and open your terminal. Type the following command to run the images
 
 ```
 sudo docker-compose up
@@ -107,7 +107,7 @@ The kibana interface should appear in your browser.
 
 ## How to use the program
 
-All steps required for deploying and using this application can be found in Chapter 3 of the [documentation](documentation-simbox-fraud-detection.pdf) file.
+All steps required for deploying and using this application can be found in `Chapter 3` of the [documentation](documentation-simbox-fraud-detection.pdf) file.
 
 ## Built With
 
